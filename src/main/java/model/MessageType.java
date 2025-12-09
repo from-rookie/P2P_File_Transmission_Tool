@@ -1,0 +1,16 @@
+package model;
+
+public enum MessageType {
+    REGISTER,
+    LOGIN,
+    LOGOUT,
+    FRIEND_REQUEST,
+    FRIEND_ACCEPT,
+    FRIEND_REJECT,
+    FRIEND_REMOVE,
+    FILE_TRANSFER_REQUEST,
+    FILE_TRANSFER_RESPONSE,
+    FRIEND_LIST_UPDATE,
+    ONLINE_STATUS,
+    ERROR
+}
